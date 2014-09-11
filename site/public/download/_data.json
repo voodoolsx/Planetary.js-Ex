@@ -1,0 +1,12 @@
+{
+  "stable": {
+    "latest": {
+      "version": "v1.1.1"
+    }
+  },
+  "unstable": {
+    "latest": {
+      "version": "v1.0.0-rc.2"
+    }
+  }
+}

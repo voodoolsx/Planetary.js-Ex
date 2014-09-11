@@ -1,0 +1,37 @@
+<div class="ui breadcrumb">
+  <a href='/examples/' class="section">Examples</a>
+  <i class="right arrow icon divider"></i>
+  <div class="active section">Basic Globe</div>
+</div>
+
+<h1>Basic Globe</h1>
+
+<p>This example shows the minimum code you need to render a basic representation of the planet Earth.</p>
+
+<div style='text-align: center;'>
+  <canvas id='basicGlobe' width='400' height='400'></canvas>
+</div>
+
+<div class='ui raised segment'>
+<div class='ui blue ribbon label'>HTML</div>
+<pre class='line-numbers'><code class='language-html'>&lt;canvas id='basicGlobe' width='400' height='400'&gt;&lt;/canvas&gt;</code></pre>
+
+<div class='ui red ribbon label'>JavaScript</div>
+<pre class='line-numbers'><code class='language-javascript'>(function() {
+  var canvas = document.getElementById('basicGlobe');
+  var planet = planetaryjs.planet();
+  // Loading this plugin technically happens automatically,
+  // but we need to specify the path to the `world-110m.json` file.
+  planet.loadPlugin(planetaryjs.plugins.earth({
+    topojson: { file: '/world-110m.json' }
+  }));
+  // Scale the planet's radius to half the canvas' size
+  // and move it to the center of the canvas.
+  planet.projection
+    .scale(canvas.width / 2)
+    .translate([canvas.width / 2, canvas.height / 2]);
+  planet.draw(canvas);
+})();</code></pre>
+</div>
+
+<%- partial('_scripts_basic') %>

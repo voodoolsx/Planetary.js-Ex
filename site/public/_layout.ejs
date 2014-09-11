@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <%- partial("_header") %>
+</head>
+<body>
+  <%- partial("_menu") %>
+
+  <div class='content container'>
+    <%- yield %>
+  </div>
+
+  <%- partial("_scripts") %>
+  <script type="text/javascript" src="js/homepage.js"></script>
+  <%- partial("_ga") %>
+</body>
+</html>

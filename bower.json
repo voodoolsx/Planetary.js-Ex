@@ -1,0 +1,33 @@
+{
+  "name": "planetary.js",
+  "version": "1.1.1",
+  "main": "dist/planetaryjs.min.js",
+  "description": "Awesome interactive globes for the web",
+  "homepage": "http://planetaryjs.com",
+  "authors": [
+    "Brandon Tilley <brandon@brandontilley.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".git",
+    ".gitignore",
+    "site",
+    "src",
+    "node_modules",
+    "gulpfile.js",
+    "package.json",
+    "screenshot.png"
+  ],
+  "dependencies": {
+    "d3": "3.x",
+    "topojson": "1.x"
+  },
+  "keywords": [
+    "globe",
+    "globes",
+    "planet",
+    "planets",
+    "d3",
+    "topojson"
+  ]
+}
