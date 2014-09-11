@@ -3,11 +3,15 @@ Planetary.js + Interaction Expansion
 
  An expansion of BinaryMuse/planetary.js. Applied on http://www.urbanable.info
  
+ I added a new Ajax function. Now you can interact with the locations on the planet, which is load from json.
+ 
+ ![Planetary.js+ Screenshot](screenshot2.png)
+ 
  
  
  
  Original Infomation
-----------
+============
 
 Planetary.js is a JavaScript library for building awesome interactive globes, like this one:
 
