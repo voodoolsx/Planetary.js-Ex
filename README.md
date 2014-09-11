@@ -1,8 +1,9 @@
 Planetary.js + Interaction Expansion
 ============
 
- An expansion of BinaryMuse/planetary.js
- Applied on http://www.urbanable.info
+ An expansion of BinaryMuse/planetary.js. Applied on http://www.urbanable.info
+ 
+ 
  
  
  Original Infomation
